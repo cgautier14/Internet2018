@@ -245,7 +245,7 @@ function setup()
     
     
     
-    createCanvas(1440, 900);
+    createCanvas(windowWidth, windowHeight);
     screen = 1;
     pos1 = 35;
     pos2 = 35;
