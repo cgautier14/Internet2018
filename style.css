@@ -47,7 +47,7 @@ body {
     top:40px;
 border:none;
     cursor: pointer;
-    background:url(../Assets/BrowserButton.png) no-repeat;
+    background:url(Assets/BrowserButton.png) no-repeat;
     width:165px;
     height:156px;
 }
@@ -55,7 +55,7 @@ border:none;
 
 #btnbrowse:hover {
     cursor: pointer;
-    background:url(../Assets/BrowserButtonHover.png) no-repeat;
+    background:url(Assets/BrowserButtonHover.png) no-repeat;
 }
 
 #btnpersonal {
@@ -64,7 +64,7 @@ border:none;
     top:220px;
 border:none;
     cursor: pointer;
-    background:url(/Assets/PersonalButton.png) no-repeat;
+    background:url(Assets/PersonalButton.png) no-repeat;
     width:165px;
     height:156px;
 }
@@ -72,7 +72,7 @@ border:none;
 
 #btnpersonal:hover {
     cursor: pointer;
-    background:url(../Assets/PersonalButtonHover.png) no-repeat;
+    background:url(Assets/PersonalButtonHover.png) no-repeat;
 }
 
 
@@ -82,7 +82,7 @@ border:none;
     top:30px;
     border:none;
     cursor: pointer;
-    background:url(../Assets/PersonalCloseButton.png) no-repeat;
+    background:url(Assets/PersonalCloseButton.png) no-repeat;
     width:85px;
     height:45px;
 }
@@ -93,7 +93,7 @@ border:none;
     top:842px;
     border:none;
     cursor: pointer;
-    background:url(../Assets/ExitButton.png) no-repeat;
+    background:url(Assets/ExitButton.png) no-repeat;
     width:165px;
     height:65px;
     
@@ -105,7 +105,7 @@ border:none;
     top:390px;
 border:none;
     cursor: pointer;
-    background:url(../Assets/HISTButtonNotYet.png) no-repeat;
+    background:url(Assets/HISTButtonNotYet.png) no-repeat;
     width:165px;
     height:230px;
 }
@@ -116,7 +116,7 @@ border:none;
     top:390px;
 border:none;
     cursor: pointer;
-    background:url(../Assets/HISTButton.png) no-repeat;
+    background:url(Assets/HISTButton.png) no-repeat;
     width:165px;
     height:230px;
 }
@@ -124,7 +124,7 @@ border:none;
 
 #btnhistory:hover {
     cursor: pointer;
-    background:url(../Assets/HISTButtonHover.png) no-repeat;
+    background:url(Assets/HISTButtonHover.png) no-repeat;
     
 }
 
@@ -133,7 +133,7 @@ border:none;
     position: absolute;
 border:none;
     cursor: pointer;
-    background:url(../Assets/DirectoryIcon.png) no-repeat;
+    background:url(Assets/DirectoryIcon.png) no-repeat;
     width:308px;
     height:308px;
     left:250px;
@@ -145,7 +145,7 @@ border:none;
     position: absolute;
 border:none;
     cursor: pointer;
-    background:url(../Assets/GrumblrIcon.png) no-repeat;
+    background:url(Assets/GrumblrIcon.png) no-repeat;
     width:308px;
     height:308px;
     left:600px;
@@ -156,7 +156,7 @@ border:none;
     position: absolute;
 border:none;
     cursor: pointer;
-    background:url(../Assets/ForumIcon.png) no-repeat;
+    background:url(Assets/ForumIcon.png) no-repeat;
     width:308px;
     height:308px;
     left:950px;
@@ -167,7 +167,7 @@ border:none;
         position: absolute;
 border:none;
     cursor: pointer;
-    background:url(../Assets/Toolbar_Off.gif) no-repeat;
+    background:url(Assets/Toolbar_Off.gif) no-repeat;
     width:160px;
     height:44px;
     left:8px;
@@ -178,7 +178,7 @@ border:none;
         position: absolute;
 border:none;
     cursor: pointer;
-    background:url(../Assets/Toolbar_Directory.gif) no-repeat;
+    background:url(Assets/Toolbar_Directory.gif) no-repeat;
     width:392px;
     height:44px;
     left:169px;
@@ -188,7 +188,7 @@ border:none;
         position: absolute;
 border:none;
     cursor: pointer;
-    background:url(../Assets/Toolbar_DirectoryClicked.gif) no-repeat;
+    background:url(Assets/Toolbar_DirectoryClicked.gif) no-repeat;
     width:392px;
     height:44px;
     left:169px;
@@ -200,7 +200,7 @@ border:none;
             position: absolute;
 border:none;
     cursor: pointer;
-    background:url(../Assets/Toolbar_Grumbles.gif) no-repeat;
+    background:url(Assets/Toolbar_Grumbles.gif) no-repeat;
     width:465px;
     height:44px;
     left:562px;
@@ -212,7 +212,7 @@ border:none;
             position: absolute;
 border:none;
     cursor: pointer;
-    background:url(../Assets/Toolbar_GrumblesClicked.gif) no-repeat;
+    background:url(Assets/Toolbar_GrumblesClicked.gif) no-repeat;
     width:465px;
     height:44px;
     left:562px;
@@ -225,7 +225,7 @@ border:none;
             position: absolute;
 border:none;
     cursor: pointer;
-    background:url(../Assets/Toolbar_TheForum.png) no-repeat;
+    background:url(Assets/Toolbar_TheForum.png) no-repeat;
     width:423px;
     height:44px;
     left:1030px;
@@ -237,7 +237,7 @@ border:none;
             position: absolute;
 border:none;
     cursor: pointer;
-    background:url(../Assets/Toolbar_TheForumClicked.png) no-repeat;
+    background:url(Assets/Toolbar_TheForumClicked.png) no-repeat;
     width:423px;
     height:44px;
     left:1030px;
@@ -250,28 +250,28 @@ border:none;
     position: absolute;
 border:none;
     cursor: pointer;
-    background:url(../Assets/LikeButton.png) no-repeat;
+    background:url(Assets/LikeButton.png) no-repeat;
     width:67px;
     height:69px;
 }
 
 #likebutton:hover {
-    background:url(../Assets/LikeButtonClicked.gif) no-repeat;
+    background:url(Assets/LikeButtonClicked.gif) no-repeat;
 }
 
 #likebuttonclicked {
         position: absolute;
 border:none;
     cursor: pointer;
-    background:url(../Assets/LikeButton.png) no-repeat;
+    background:url(Assets/LikeButton.png) no-repeat;
     width:67px;
     height:69px;
-    background:url(../Assets/LikeButtonClickedStill.png) no-repeat;
+    background:url(Assets/LikeButtonClickedStill.png) no-repeat;
     
 }
 
 #likebuttonclicked:hover {
-    background:url(../Assets/LikeButtonClicked.gif) no-repeat;
+    background:url(Assets/LikeButtonClicked.gif) no-repeat;
 }
 
 
@@ -362,55 +362,55 @@ border:none;
     position: absolute;
 border:none;
     cursor: pointer;
-    background:url(../Assets/Heart.png) no-repeat;
+    background:url(Assets/Heart.png) no-repeat;
     width:49px;
     height:47px;
 }
 
 #heartbutton:hover {
-    background:url(../Assets/HeartClicked.gif) no-repeat;
+    background:url(Assets/HeartClicked.gif) no-repeat;
 }
 
 #heartbuttonclicked {
         position: absolute;
 border:none;
     cursor: pointer;
-    background:url(../Assets/LikeButton.png) no-repeat;
+    background:url(Assets/LikeButton.png) no-repeat;
     width:49px;
     height:47px;
-    background:url(../Assets/HeartClickedStill.png) no-repeat;
+    background:url(Assets/HeartClickedStill.png) no-repeat;
     
 }
 
 #heartbuttonclicked:hover {
-    background:url(../Assets/HeartClicked.gif) no-repeat;
+    background:url(Assets/HeartClicked.gif) no-repeat;
 }
 
 #upbutton {
     position: absolute;
 border:none;
     cursor: pointer;
-    background:url(../Assets/4rumUp.png) no-repeat;
+    background:url(Assets/4rumUp.png) no-repeat;
     width:49px;
     height:47px;
 }
 
 #upbutton:hover {
-    background:url(../Assets/4rumUpclicked.gif) no-repeat;
+    background:url(Assets/4rumUpclicked.gif) no-repeat;
 }
 #upbuttonclicked {
         position: absolute;
 border:none;
     cursor: pointer;
-    background:url(../Assets/LikeButton.png) no-repeat;
+    background:url(Assets/LikeButton.png) no-repeat;
     width:49px;
     height:47px;
-    background:url(../Assets/4rumUpclickedstill.png) no-repeat;
+    background:url(Assets/4rumUpclickedstill.png) no-repeat;
     
 }
 
 #upbuttonclicked:hover {
-    background:url(../Assets/4rumUpclicked.gif) no-repeat;
+    background:url(Assets/4rumUpclicked.gif) no-repeat;
 }
 
 
