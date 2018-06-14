@@ -1,0 +1,423 @@
+body {
+    background-color:#000000;
+}
+
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+}
+
+.inputname {
+    width: 650px;
+    height: 31px;
+    padding: 12px 20px;
+    border: none;
+    margin: 8px 0;
+    font-size: 30px;
+    
+}
+
+
+.btn1 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #000000;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+#btnbrowse {
+    position: absolute;
+    left:1250px;
+    top:40px;
+border:none;
+    cursor: pointer;
+    background:url(Assets/BrowserButton.png) no-repeat;
+    width:165px;
+    height:156px;
+}
+
+
+#btnbrowse:hover {
+    cursor: pointer;
+    background:url(Assets/BrowserButtonHover.png) no-repeat;
+}
+
+#btnpersonal {
+    position: absolute;
+    left:1262px;
+    top:220px;
+border:none;
+    cursor: pointer;
+    background:url(Assets/PersonalButton.png) no-repeat;
+    width:165px;
+    height:156px;
+}
+
+
+#btnpersonal:hover {
+    cursor: pointer;
+    background:url(Assets/PersonalButtonHover.png) no-repeat;
+}
+
+
+#btnpersonalclose {
+    position: absolute;
+    left:32px;
+    top:30px;
+    border:none;
+    cursor: pointer;
+    background:url(Assets/PersonalCloseButton.png) no-repeat;
+    width:85px;
+    height:45px;
+}
+
+#btnexit {
+    position: absolute;
+    left:8px;
+    top:842px;
+    border:none;
+    cursor: pointer;
+    background:url(Assets/ExitButton.png) no-repeat;
+    width:165px;
+    height:65px;
+    
+}
+
+#btnhistorynotyet {
+    position: absolute;
+    left:1262px;
+    top:390px;
+border:none;
+    cursor: pointer;
+    background:url(Assets/HISTButtonNotYet.png) no-repeat;
+    width:165px;
+    height:230px;
+}
+
+#btnhistory {
+    position: absolute;
+    left:1262px;
+    top:390px;
+border:none;
+    cursor: pointer;
+    background:url(Assets/HISTButton.png) no-repeat;
+    width:165px;
+    height:230px;
+}
+
+
+#btnhistory:hover {
+    cursor: pointer;
+    background:url(Assets/HISTButtonHover.png) no-repeat;
+    
+}
+
+
+#icondir{
+    position: absolute;
+border:none;
+    cursor: pointer;
+    background:url(Assets/DirectoryIcon.png) no-repeat;
+    width:308px;
+    height:308px;
+    left:250px;
+    top:275px;
+    
+}
+
+#icongrm{
+    position: absolute;
+border:none;
+    cursor: pointer;
+    background:url(Assets/GrumblrIcon.png) no-repeat;
+    width:308px;
+    height:308px;
+    left:600px;
+    top:275px;
+}
+
+#iconrum{
+    position: absolute;
+border:none;
+    cursor: pointer;
+    background:url(Assets/ForumIcon.png) no-repeat;
+    width:308px;
+    height:308px;
+    left:950px;
+    top:275px;
+}
+
+#browsertoolbaroff {
+        position: absolute;
+border:none;
+    cursor: pointer;
+    background:url(Assets/Toolbar_Off.gif) no-repeat;
+    width:160px;
+    height:44px;
+    left:8px;
+    top:0px;
+}
+
+#browsertooldirectory {
+        position: absolute;
+border:none;
+    cursor: pointer;
+    background:url(Assets/Toolbar_Directory.gif) no-repeat;
+    width:392px;
+    height:44px;
+    left:169px;
+    top:0px;
+}
+#browsertooldirectoryclicked {
+        position: absolute;
+border:none;
+    cursor: pointer;
+    background:url(Assets/Toolbar_DirectoryClicked.gif) no-repeat;
+    width:392px;
+    height:44px;
+    left:169px;
+    top:0px;
+}
+
+#browsertoolgrumbles {
+    
+            position: absolute;
+border:none;
+    cursor: pointer;
+    background:url(Assets/Toolbar_Grumbles.gif) no-repeat;
+    width:465px;
+    height:44px;
+    left:562px;
+    top:0px;
+    
+}
+#browsertoolgrumblesclicked {
+    
+            position: absolute;
+border:none;
+    cursor: pointer;
+    background:url(Assets/Toolbar_GrumblesClicked.gif) no-repeat;
+    width:465px;
+    height:44px;
+    left:562px;
+    top:0px;
+    
+}
+
+#browsertool4rum {
+    
+            position: absolute;
+border:none;
+    cursor: pointer;
+    background:url(Assets/Toolbar_TheForum.png) no-repeat;
+    width:423px;
+    height:44px;
+    left:1030px;
+    top:0px;
+    
+}
+#browsertool4rumclicked {
+    
+            position: absolute;
+border:none;
+    cursor: pointer;
+    background:url(Assets/Toolbar_TheForumClicked.png) no-repeat;
+    width:423px;
+    height:44px;
+    left:1030px;
+    top:0px;
+    
+}
+
+
+#likebutton {
+    position: absolute;
+border:none;
+    cursor: pointer;
+    background:url(Assets/LikeButton.png) no-repeat;
+    width:67px;
+    height:69px;
+}
+
+#likebutton:hover {
+    background:url(Assets/LikeButtonClicked.gif) no-repeat;
+}
+
+#likebuttonclicked {
+        position: absolute;
+border:none;
+    cursor: pointer;
+    background:url(Assets/LikeButton.png) no-repeat;
+    width:67px;
+    height:69px;
+    background:url(Assets/LikeButtonClickedStill.png) no-repeat;
+    
+}
+
+#likebuttonclicked:hover {
+    background:url(Assets/LikeButtonClicked.gif) no-repeat;
+}
+
+
+#chatreply {
+    position: absolute;
+    background-color: #999999;
+    border-style: none;
+    color: white;
+    width: 357px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+#chatchoicenormal {
+    position: absolute;
+    background-color: #999999;
+    border-style: none;
+    color: white;
+    width: 150px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+#chatchoiceblack {
+    position: absolute;
+    background-color: #000000;
+    border-style: none;
+    color: white;
+    width: 150px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+#chatchoiceblue {
+    position: absolute;
+    background-color: blue;
+    border-style: none;
+    color: white;
+    width: 150px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+#chatchoicered {
+    position: absolute;
+    background-color: red;
+    border-style: none;
+    color: white;
+    width: 150px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#heartbutton {
+    position: absolute;
+border:none;
+    cursor: pointer;
+    background:url(Assets/Heart.png) no-repeat;
+    width:49px;
+    height:47px;
+}
+
+#heartbutton:hover {
+    background:url(Assets/HeartClicked.gif) no-repeat;
+}
+
+#heartbuttonclicked {
+        position: absolute;
+border:none;
+    cursor: pointer;
+    background:url(Assets/LikeButton.png) no-repeat;
+    width:49px;
+    height:47px;
+    background:url(Assets/HeartClickedStill.png) no-repeat;
+    
+}
+
+#heartbuttonclicked:hover {
+    background:url(Assets/HeartClicked.gif) no-repeat;
+}
+
+#upbutton {
+    position: absolute;
+border:none;
+    cursor: pointer;
+    background:url(Assets/4rumUp.png) no-repeat;
+    width:49px;
+    height:47px;
+}
+
+#upbutton:hover {
+    background:url(Assets/4rumUpclicked.gif) no-repeat;
+}
+#upbuttonclicked {
+        position: absolute;
+border:none;
+    cursor: pointer;
+    background:url(Assets/LikeButton.png) no-repeat;
+    width:49px;
+    height:47px;
+    background:url(Assets/4rumUpclickedstill.png) no-repeat;
+    
+}
+
+#upbuttonclicked:hover {
+    background:url(Assets/4rumUpclicked.gif) no-repeat;
+}
+
+
+#History {
+    position: absolute;
+    top: -100px;
+    left: 10px;
+    width: 1440;
+
+}
