@@ -3,7 +3,6 @@ function History1()
 {
     hist1.autoplay(true);
     hist1.show();
-    hist1.muted(true);
 
 }
 
